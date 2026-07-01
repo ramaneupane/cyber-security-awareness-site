@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources | Cybersecurity Awareness</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">
+          <span class="brand-icon">🛡️</span>
+          <span>CyberShield</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="threats.html">Threats</a>
+          <a href="best-practices.html">Best Practices</a>
+          <a href="quiz.html">Quiz</a>
+          <a href="resources.html" class="active">Resources</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="container section">
+        <div class="section-heading">
+          <p class="eyebrow">Resources</p>
+          <h1>Secure your digital life with trusted guidance</h1>
+        </div>
+
+        <div class="resource-toolbar">
+          <input id="resourceSearch" type="search" placeholder="Search resources by keyword" aria-label="Search resources" />
+        </div>
+
+        <div class="card-grid two-up resource-list">
+          <article class="info-card resource-card" data-title="Security checklist" data-tags="checklist security basics">
+            <h3>Security checklist</h3>
+            <p>Review a simple weekly checklist covering passwords, updates, backups, and suspicious messages.</p>
+          </article>
+          <article class="info-card resource-card" data-title="Cyber tips" data-tags="tips habits awareness">
+            <h3>Useful cybersecurity tips</h3>
+            <p>Keep devices locked, review privacy settings, and exercise caution with unexpected requests.</p>
+          </article>
+          <article class="info-card resource-card" data-title="Trusted organizations" data-tags="organizations cisa nist">
+            <h3>Trusted organizations</h3>
+            <p><a href="https://www.cisa.gov/" target="_blank" rel="noreferrer">CISA</a> and <a href="https://www.nist.gov/" target="_blank" rel="noreferrer">NIST</a> offer practical guidance and alerts.</p>
+          </article>
+        </div>
+
+        <div class="faq-card">
+          <h2>Frequently Asked Questions</h2>
+          <div class="faq-item">
+            <button class="faq-question" type="button">What is the best first step to improve security?</button>
+            <div class="faq-answer">
+              <p>Start with strong, unique passwords and enable multi-factor authentication on your most important accounts.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">How often should I update my software?</button>
+            <div class="faq-answer">
+              <p>Install updates as soon as they are available, especially for your operating system, browser, and security tools.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">Should I use public Wi-Fi?</button>
+            <div class="faq-answer">
+              <p>Use public Wi-Fi sparingly. If you must connect, avoid sensitive tasks and consider a VPN.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>CyberShield</h3>
+          <p>Practical cyber awareness for a safer digital life.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+  </body>
+</html>

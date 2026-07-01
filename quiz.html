@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Quiz | Cybersecurity Awareness</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">
+          <span class="brand-icon">🛡️</span>
+          <span>CyberShield</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="threats.html">Threats</a>
+          <a href="best-practices.html">Best Practices</a>
+          <a href="quiz.html" class="active">Quiz</a>
+          <a href="resources.html">Resources</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="container section">
+        <div class="section-heading">
+          <p class="eyebrow">Quiz</p>
+          <h1>Test your cybersecurity knowledge</h1>
+          <p>Answer the questions below and see how prepared you are to stay secure online.</p>
+        </div>
+        <form id="quizForm" class="quiz-card">
+          <div id="quizQuestions"></div>
+          <div class="quiz-actions">
+            <button type="submit" class="btn btn-primary">Submit Answers</button>
+            <button type="button" id="resetQuiz" class="btn btn-secondary">Retake Quiz</button>
+          </div>
+          <div id="quizResult" class="quiz-result" aria-live="polite"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>CyberShield</h3>
+          <p>Practical cyber awareness for a safer digital life.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+  </body>
+</html>

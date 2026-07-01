@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Threats | Cybersecurity Awareness</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">
+          <span class="brand-icon">🛡️</span>
+          <span>CyberShield</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="threats.html" class="active">Threats</a>
+          <a href="best-practices.html">Best Practices</a>
+          <a href="quiz.html">Quiz</a>
+          <a href="resources.html">Resources</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="container section">
+        <div class="section-heading">
+          <p class="eyebrow">Threats</p>
+          <h1>Common cyber threats to know</h1>
+          <p>Modern attackers use a mix of deception and technical tricks to gain access to accounts, data, and systems.</p>
+        </div>
+        <div class="card-grid three-up">
+          <article class="info-card threat-card">
+            <div class="card-icon">📧</div>
+            <h3>Phishing</h3>
+            <p>Fraudulent emails or messages that imitate trusted brands to steal login credentials or money.</p>
+          </article>
+          <article class="info-card threat-card">
+            <div class="card-icon">🦠</div>
+            <h3>Malware</h3>
+            <p>Malicious software, including spyware and trojans, designed to infect devices and collect data.</p>
+          </article>
+          <article class="info-card threat-card">
+            <div class="card-icon">🔒</div>
+            <h3>Ransomware</h3>
+            <p>Encryption malware that locks files until a ransom is paid, often causing severe disruption.</p>
+          </article>
+          <article class="info-card threat-card">
+            <div class="card-icon">🎭</div>
+            <h3>Social Engineering</h3>
+            <p>Manipulating people through trust, urgency, or authority to obtain sensitive information or access.</p>
+          </article>
+          <article class="info-card threat-card">
+            <div class="card-icon">🔑</div>
+            <h3>Password Attacks</h3>
+            <p>Attackers use brute-force, dictionary, or credential stuffing methods to guess passwords.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>CyberShield</h3>
+          <p>Practical cyber awareness for a safer digital life.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cybersecurity Awareness website with tips, threats, quiz, and trusted resources." />
+    <title>Cybersecurity Awareness | Stay Safe Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">
+          <span class="brand-icon">🛡️</span>
+          <span>CyberShield</span>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html" class="active">Home</a>
+          <a href="threats.html">Threats</a>
+          <a href="best-practices.html">Best Practices</a>
+          <a href="quiz.html">Quiz</a>
+          <a href="resources.html">Resources</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Cybersecurity Awareness</p>
+            <h1>Stay Safe Online</h1>
+            <p class="hero-copy">
+              Learn how to protect your data, recognize modern threats, and build safer digital habits with practical guidance.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="best-practices.html">Learn More</a>
+              <a class="btn btn-secondary" href="quiz.html">Take Security Quiz</a>
+            </div>
+            <div class="hero-badges">
+              <span>✓ Trusted by students and professionals</span>
+              <span>✓ Practical, real-world advice</span>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card__top">
+              <h2>Daily Threat Snapshot</h2>
+              <span class="status-pill">Live insight</span>
+            </div>
+            <div class="carousel" aria-label="Security awareness highlights">
+              <div class="carousel-track">
+                <article class="slide active">
+                  <h3>Phishing remains the most common attack</h3>
+                  <p>Attackers impersonate trusted services to steal passwords and payment details.</p>
+                </article>
+                <article class="slide">
+                  <h3>Enable MFA for critical accounts</h3>
+                  <p>Layered authentication adds a strong defense against account compromise.</p>
+                </article>
+                <article class="slide">
+                  <h3>Updates patch known vulnerabilities</h3>
+                  <p>Keeping your software current closes many security gaps quickly.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Why it matters</p>
+            <h2>Build smart habits that reduce risk</h2>
+          </div>
+          <div class="card-grid three-up">
+            <article class="info-card">
+              <div class="card-icon">🔐</div>
+              <h3>Secure Accounts</h3>
+              <p>Use unique passwords and MFA to keep your accounts resilient against attacks.</p>
+            </article>
+            <article class="info-card">
+              <div class="card-icon">🧠</div>
+              <h3>Recognize Threats</h3>
+              <p>Spot suspicious links, unusual requests, and impersonation attempts before acting.</p>
+            </article>
+            <article class="info-card">
+              <div class="card-icon">📦</div>
+              <h3>Protect Your Data</h3>
+              <p>Back up important files and avoid risky downloads or public Wi-Fi behavior.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Impact</p>
+            <h2>Small steps make a measurable difference</h2>
+          </div>
+          <div class="stats-grid">
+            <article class="stat-card">
+              <h3 class="counter" data-target="92">0</h3>
+              <p>of security breaches involve human error</p>
+            </article>
+            <article class="stat-card">
+              <h3 class="counter" data-target="81">0</h3>
+              <p>of organizations use MFA today</p>
+            </article>
+            <article class="stat-card">
+              <h3 class="counter" data-target="68">0</h3>
+              <p>of phishing emails are opened by targets</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>CyberShield</h3>
+          <p>Practical cyber awareness for a safer digital life.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="threats.html">Threats</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+  </body>
+</html>
